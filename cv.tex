@@ -1,0 +1,162 @@
+    %%%%
+    % MTecknology's Resume
+    %%%%
+    % Author: Michael Lustfield
+    % License: CC-BY-4
+    % - https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    %%%%
+
+    \documentclass[letterpaper,10pt]{article}
+    \usepackage{mteck}
+    %===================%
+    % Nadim's Resume %
+    %===================%
+
+    %\numberedPages % NOTE: lastpage requires a second build
+    %\documentFooter{\thepage of 2} % Does similar without using lastpage
+    \begin{document}
+    %---------%
+    % Heading %
+    %---------%
+
+    \documentTitle{Nadim Mottu}{
+        % Web Version
+        %\raisebox{-0.05\height} \faPhone\ [redacted - web copy] ~
+        %\raisebox{-0.15\height} \faEnvelope\ [redacted - web copy] ~
+        %%
+        \href{tel:6475949446}{
+        \raisebox{-0.05\height} \faPhone\ 647-594-9446} ~ | ~
+        \href{mailto:nadimmottu@gmail.com}{
+        \raisebox{-0.15\height} \faEnvelope\ nadimmottu@gmail.com} ~ | ~
+        \href{www.linkedin.com/in/nadim-mottu}{
+        \raisebox{-0.15\height} \faLinkedin\ www.linkedin.com/in/nadim-mottu} ~ | ~
+        \href{https://github.com/nadim-mott}{
+        \raisebox{-0.15\height} \faGithub\ https://github.com/nadim-mott}
+    }
+
+    %---------%
+    % Summary %
+    %---------%
+
+    \tinysection{Summary}
+    Third year Computer Science and Math undergraduate looking to gain hands-on experience
+    in a team oriented environment, challenge myself and work on industry
+    defining projects. I've been programming since I was 12 years old, a passion
+    I developed in tandem with a strong focus on mathematics and design.
+    My skills, choices and experiences reflect that I am a strong creative
+    thinker, a good people person with an interest in developing useful and
+    ethical technology. You may find some of my recent projects on my
+    github @nadim-mott.
+
+    %--------%
+    % Skills %
+    %--------%
+
+    \section{Skills}
+    \begin{multicols}{2}
+            \begin{tabular}{l l}
+                \textbf{Languages: } & Java, Python, C, MIPS, GML, Lua \\
+                \textbf{Web Dev: } & JavaScript, HTML, CSS, React, Next.js \\
+                \textbf{Databases: } & PostgreSQL, Prisma, SQLite \\
+            \end{tabular}
+            \begin{tabular}{lp{0.8\linewidth} lp{0.8\linewidth}}
+                \textbf{Libraries: } & Java Swing, Numpy, SciPy, scikit-learn, JavaFX\\
+                \textbf{OS: } & Debian, Ubuntu, Windows\\
+                \textbf{Tools: } & Docker, NextCloud, Latex, excel, GIMP, Adobe Photoshop, Adobe Premiere
+            \end{tabular}
+    \end{multicols}
+
+    %-----------%
+    % Education %
+    %-----------%
+
+    \section{Education}
+
+    \headingBf[\icon{uoft.png} ]{University of Toronto}{September 2022 -- May 2026} % Note: Adding year(s) exposes an implied age
+    \headingIt{Honours Bachelor of Science}{}
+    \headingIt{Computer Science Specialist with a Focus in Theory of Computation, Minor in mathematics}{}
+        \begin{resume_list}
+            \item cGPA: 3.73
+            \vspace{3pt}
+            \itemTitle{Courses Taken:}
+            \item Computer Science: Computer Organization, Software Tools and Systems Programming, Enriched Data Structures and Analysis, Software Design, Enriched Introduction to Theory of Computation, Foundations of Computer Science I\&II
+            \item Mathematics: Analysis I\&II, Algebra I\&II, Probability and Statistics I, Topology
+            \item Breadth: Physics I, Computers and Society, Human Nature, The Graphic Novel
+            \vspace{3pt}
+            \itemTitle{Courses in progress:}
+            \item Machine Learning, Artificial Intelligence, Programming on the Web, Databases, Graph Theory
+            \vspace{3pt}
+            \itemTitle{Awards:}
+            \item University Of Toronto International Scholar Award - Faculty of Arts and Science (2022-2026)
+            \item Dean’s List Scholar in the Faculty of Arts \& Science (2023-2024)
+            \item Innis College Exceptional Achievement Award (2023-2024)
+        \end{resume_list}
+    \vspace{5pt} 
+    \headingBf[\icon{wis.jpg} ]{Washington International School}{2014 -- 2022}
+    \headingIt{IB - Bilingual Diploma}{}
+    \begin{resume_list}
+        \item Total IB Grade: (41/45), Cumulative GPA: 6.86/7.00, Senior Year GPA: 7.00/7.00
+        \vspace{3pt}
+        \itemTitle{IB Courses Taken:}
+        \item Higher level: Mathematics: Analysis and Approaches HL, 
+        Physics HL, Economics HL, 
+        \item Standard level: Language and Literature SL, 
+        Chemistry SL, English: Literature SL
+    \end{resume_list}
+
+
+    %------------%
+    % Experience %
+    %------------%
+
+    \section{Experience}
+    \headingBf[\icon{iDtech.jpg} ]{Internal Drive Tech}{June -- August 2024}
+    \headingIt{Instructor}{Amazon HQ/American University | Washington, DC}
+    \begin{resume_list}
+        \item Taught children ages 7-9 basic coding skills and computer literacy through games like scratch, Lua (Roblox) and Minecraft
+        \item Helped over 50 students develop projects over the course of one week making sure to highlight important software engineering practices
+        such as testing, debugging, reviewing one another's work
+        \item Explained the above skills and technical concepts such as boolean algebra at an elementary school level.
+        \item Collaborated with other instructors to develop curriculums and filled in knowledge gaps in the case of individual students projects.
+    \end{resume_list}
+
+    \headingBf[\icon{torontoClimateObservatory.jpeg} ]{Toronto Climate Observatory}{May -- June 2024}
+    \headingIt{Research Assistant}{University of Toronto | Toronto, ON}
+    \begin{resume_list}
+        \item Collaborated with another undergraduate student to develop a research project using CMIP6 to predict changes in temperature in Toronto and how that might impact
+        skating rink closures
+        \item Documented and explored ``the usability gap'' and how to make climate data more usable to undergraduate students or people with only a basic understanding of climate science.
+        \item Used common data analysis libraries for Python such as NumPy and Mat plot
+    \end{resume_list}
+    \headingBf[\icon{fundForPublic.jpeg} ]{Fund for the Public Interest}{May - July 2023}
+    \headingIt{Field Manager}{Washington, DC}
+    \begin{resume_list}
+        \item Led a team of 3-4 people canvassing door to door to rally the citizens of Virginia to pass a bill to reduce wasteful plastic packaging.
+        \item Raised over helped \$9000 for the cause, was the highest performing Canvasser in the DC office.
+        \item Trained new members
+    \end{resume_list}
+
+
+    %----------------------------%
+    % Extracurricular Activities %
+    %----------------------------%
+
+    \section{Highlighted Projects}
+
+    \headingBf{Scriptorium}{September 2024 -- Present}
+    \headingIt{CSC309 - Programming on the Web}{}
+    \begin{resume_list}
+        \item Collaborated with a team to develop a website in React framework allowing users to develop and share their code.
+        \item Provides isolation for different user projects.
+        \item Allows for user account creation authentication, rating posts, reporting and more.
+        \item Follows Rest best practices. 
+    \end{resume_list}
+
+    \headingBf{}{Jan 2001 -- Present}
+    \begin{resume_list}
+        \item Maintained packages in Debian repositories
+        \item Reviewed and sponsored packages on behalf of prospective Developers
+        \item Resolved bugs reported in bug tracking system
+    \end{resume_list}
+
+    \end{document}
