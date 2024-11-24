@@ -1,0 +1,9 @@
+# ignore ALL .log files
+*.log
+*
+!*.sty
+!*.tex
+!*.pdf
+!.gitignore
+!assets/
+!assets/*
