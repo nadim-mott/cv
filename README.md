@@ -1,4 +1,4 @@
-# LaTeX Resume
+# My Resume
 
 This repository contains my resume, which is based on the [mteck's resume template](https://www.overleaf.com/latex/templates/mtecks-resume/fzgztpkgngjc). The template provides a clean and professional design, making it an excellent starting point for creating a polished CV.
 
